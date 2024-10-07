@@ -156,7 +156,7 @@ header img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(#f5f5a2, #ffa400 50%, #58c792 100%);
+    background: linear-gradient(135deg,#f5f5a2, #ffa400 50%, #58c792 100%);
     padding: 50px;
     flex-direction: column;
     text-align: center;
@@ -253,7 +253,7 @@ header nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #1900ff, #09ff00 50%, #ff0000 100%);
+    background: linear-gradient(135deg,#f5f5a2, #ffa400 50%, #58c792 100%);
     padding: 50px;
     flex-direction: column;
     text-align: center;
