@@ -156,7 +156,7 @@ header img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(135deg, #ff0000, #001aff 50%, #adc758 100%);
+    background: linear-gradient(#f5f5a2, #ffa400 50%, #58c792 100%);
     padding: 50px;
     flex-direction: column;
     text-align: center;
