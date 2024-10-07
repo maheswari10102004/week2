@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Online Grocery Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">YOUR LOGO</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">
+                         <span>Cart (<span id="cart-count">0</span>)</span></a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="products-section">
+        <h1>Our Products</h1>
+        <div class="products-grid">
+            <!-- Product Items -->
+            <div class="product-item">
+                <img src="apple.webp" alt="Product 1">
+                <h2>Fresh Apples</h2>
+                <p>High-quality fresh apples sourced locally.</p>
+                <h4>Price:250/kg</h4>
+                <button class="add-to-cart-btn" data-name="Apple" data-price="1.00">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="banana.jpeg" alt="Product 2">
+                <h2>Organic Bananas</h2>
+                <p>Organic bananas rich in nutrients.</p>
+                <h4>Price:100/kg</h4>
+                <button class="add-to-cart-btn" data-name="Apple" data-price="1.00">Add to Cart</button>
+            </div>
+            <!-- Add more product items like the following -->
+            <div class="product-item">
+                <img src="bread.jpeg" alt="Product 3">
+                <h2>Whole Grain Bread</h2>
+                <p>Healthy whole grain bread baked daily.</p>
+                <button class="add-to-cart-btn" data-name="Apple" data-price="1.00">Add to Cart</button>
+                <h4>Price:30</h4>
+            </div>
+            <div class="product-item">
+                <img src="milk.jpeg" alt="Product 4">
+                <h2>Fresh Milk</h2>
+                <p>Locally sourced fresh milk delivered daily.</p>
+                <button class="add-to-cart-btn" data-name="milk" data-price="1.00">Add to Cart</button>
+                <h4>Price:50/ltr</h4>
+            </div>
+            <div class="product-item">
+                <img src="tomato.jpeg" alt="Product 5">
+                <h2>Tomatoes</h2>
+                <p>Freshly picked tomatoes, perfect for salads and cooking.</p>
+                <h4>Price:80/kg</h4>
+                <button class="add-to-cart-btn" data-name="tomato" data-price="1.00">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="broccoli.jpeg" alt="Product 6">
+                <h2>Broccoli</h2>
+                <p>Organic broccoli packed with vitamins.</p>
+                <h4>Price:30</h4>
+                <button class="add-to-cart-btn" data-name="broccoli" data-price="1.00">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="carrots.jpeg" alt="Product 7">
+                <h2>Carrots</h2>
+                <p>Crisp and sweet carrots, ideal for snacking or cooking.</p>
+                <h4>Price:50/kg</h4>
+                <button class="add-to-cart-btn" data-name="carrots" data-price="1.00">Add to Cart</button>
+            </div>
+           
+            <div class="product-item">
+                <img src="spinach.jpeg" alt="Product 9">
+                <h2>Spinach</h2>
+                <p>Fresh spinach leaves, great for salads or cooking.</p>
+                <h4>Price:20</h4>
+                <button class="add-to-cart-btn" data-name="spinach" data-price="1.00">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="avocado.jpeg" alt="Product 10">
+                <h2>Avocados</h2>
+                <p>Ripe avocados for guacamole or toast.</p>
+                <h4>Price:80</h4>
+                <button class="add-to-cart-btn" data-name="Avocado" data-price="1.00">Add to Cart</button>
+            </div>
+            <div id="cart-section" class="hidden">
+                <h2>Your Cart</h2>
+                <ul id="cart-items"></ul>
+                <p>Total: $<span id="cart-total">0.00</span></p>
+                <button id="checkout-btn">Checkout</button>
+                <script src="script.js"></script>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
