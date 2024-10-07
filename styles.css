@@ -44,7 +44,7 @@ header nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(135deg, #ff0404, #f95300 50%, #fff200 100%);
+    background: linear-gradient(135deg, #f5f5a2, #ffa400 50%, #58c792 100%);
     padding: 50px;
 }
 
